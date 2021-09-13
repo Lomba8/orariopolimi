@@ -1,0 +1,8 @@
+• ci sono 6 "riga_vuota" che separano i giorni della settimana
+• dopo ogni "riga_vuota" ci sono x "normalRow" che significano gli orari di una
+aula *
+• 
+
+
+* non sono sicuro del fatto che ogni aula abbia la stessa squadra 
+(Squadra1 matricola dispari, Squadra2 matricola pari)

@@ -1,0 +1,21 @@
+• ci sono 6 <tr> "riga_vuota" che separano i giorni della settimana
+• dopo ogni "riga_vuota" ci sono x <tr> "normalRow" che significano gli orari
+  di una aula *
+• dentro ogni <tr> "riga_vuota" ci sono x <td>, i primi due sono:
+  class="data" (che indica il giorno della settimana) & class="dove" che 
+  indica l'aula (da inserire su google calendar), 
+  dopo ci sono <td> con class="css_prima_riga empty"
+  ("css_prima_riga empty" ha colore bianco, "css_prima_riga empty_prima" ha
+  colore grigio e significa il primo quarto d'ora es: 8:15, 9:15, 10:15...) 
+  se non ci sono lezioni in quel quarto d'ora (aggiungere + 15 minuti ogni volta
+  che se ne incontra uno), poi se c'e' una lezione c'e' un
+  class="slot slot$numero" con un colspan="$numero" ( il $numero va diviso per
+  4 per ottenere la lunghezza della lezione), dentro questo ultimo <td> c'e'
+  una <a> con title="$nome del corso + $inio e $fine della lezione (da usare
+  per impostare: 1- Nome del corso, 2- Filtro della squadra, -3 Frequenza
+  dell'evento su google calendar)
+• <div> id="OrarioCart" (c'e ne sono 2, il primo e' hidden), con dentro
+  una tabella class="BoxInfoCart" e dentro vari <td> class="ElementInfoCard2"
+
+* non sono sicuro del fatto che ogni aula abbia la stessa squadra 
+(Squadra1 matricola dispari, Squadra2 matricola pari)

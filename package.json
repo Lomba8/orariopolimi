@@ -1,0 +1,17 @@
+{
+  "name": "oraripolimi",
+  "version": "1.0.0",
+  "description": "converte gli orari per google calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giacomo Lombardi",
+  "license": "MIT",
+  "dependencies": {
+    "any-date-parser": "^1.4.6",
+    "cheerio": "^1.0.0-rc.10",
+    "nodemon": "^2.0.12",
+    "tabletojson": "^2.0.7"
+  }
+}
